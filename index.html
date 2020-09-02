@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon Test</title>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+
+        <script type="text/javascript" src="pokemon.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <form id="search" name="search">
+                <input type="text" name="pokemon" placeholder="Enter the Pokemon's name you want..." />
+                <input type="submit" value="Validate" />
+            </form>
+
+            <div id="pokemon-info">
+                <div id="sprites"></div>
+
+                <div id="name"></div>
+
+                <div id="id">
+                    <span class="key">Pokédex entry:</span>
+                    <span class="value"></span>
+                </div>
+
+                <div id="types"></div>
+
+                <div id="abilities">
+                    <span class="key">Abilities:</span>
+                    <span class="value"></span>
+                </div>
+
+                <div id="stats">
+                    <div id="hp">
+                        <span class="key">HP:</span>
+                        <span class="value"></span>
+                        <span class="graph"></span>
+                    </div>
+                    <div id="attack">
+                        <span class="key">Attack:</span>
+                        <span class="value"></span>
+                        <span class="graph"></span>
+                    </div>
+                    <div id="defense">
+                        <span class="key">Defense:</span>
+                        <span class="value"></span>
+                        <span class="graph"></span>
+                    </div>
+                    <div id="special-attack">
+                        <span class="key">Sp. Atk:</span>
+                        <span class="value"></span>
+                        <span class="graph"></span>
+                    </div>
+                    <div id="special-defense">
+                        <span class="key">Sp. Def:</span>
+                        <span class="value"></span>
+                        <span class="graph"></span>
+                    </div>
+                    <div id="speed">
+                        <span class="key">Speed:</span>
+                        <span class="value"></span>
+                        <span class="graph"></span>
+                    </div>
+
+                    <div id="sum">
+                        <span class="key">Sum:</span>
+                        <span class="value"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="search.js"></script>
+    </body>
+</html>
